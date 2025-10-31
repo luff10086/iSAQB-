@@ -1,31 +1,25 @@
 # Changelog
 
-### July 2025
+### October 2025
 
 See what’s new and improved in our July update.
 
-**Product feature #1**
+**更新**
 
-* Feature description
-* Feature description
+* 官方网站只提供英文版
+* 本人已通过iSAQB认证，并且对整本书进行了中文翻译
+* 目前阅读大体流畅，欢迎提出issued
 
-[Read the documentation](https://www.gitbook.com/)
+**待办项**
 
-**Product feature #2**
+* 部分图片翻译成中文
+* 补充后面章节图片
+* 排版优化
+* 翻译错误修正
 
-* Feature description
-* Feature description
-* Feature description
+[Read the documentation](https://luff.gitbook.io/isaqb-zh-cn)
 
-[Read the documentation](https://gitbook.com/)
 
-**Product feature #3**
-
-* Feature description
-* Feature description
-* Feature description
-
-[Read the documentation](https://gitbook.com/)
 
 <details>
 
