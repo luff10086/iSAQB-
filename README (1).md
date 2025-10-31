@@ -1,17 +1,61 @@
-# 第2章 软件架构基础
+# Table of contents
 
-正如引言中已经解释的那样，如今软件几乎无处不在。从早上的闹钟开始，通过汽车和火车制动器的正常运行，到银行账户中的资金管理，我们几乎每天24小时都依赖于软件的正常运行。
-
-尽管这种无所不在和我们对软件的依赖，我们软件工程师仍然没有充分详细地了解如何在可重复的基础上成功地构建软件。软件项目耗时太久、花费太多、并且经常失败。甚至当一个软件项目成功进入运行使用，涉及的结果通常是不充分的。斯坦迪什集团 (Standish Group) 的 CHAOS 报告\[[Sta99\]](<README (1).md#ref58>) 每年都一次又一次地证实了这一点。尽管 CHAOS 报告受到了各种批评，但不可否认的是，其他评估成功的方法也提供了非常相似且不那么令人满意的结果（见 \[[EK08\]](<README (1).md#ref20>)，\[[EV10\]](<README (1).md#ref22>)）。最重要的是，如图 2-1 所示，我们在魔法矩形（见 \[Bal00]、\[Die00]、\[Dum01]、\[Lit05]、\[May05]）内成功管理软件项目的能力极其有限。我们仍然无法在规定的时间内以可承受的成本重复创建具有必要功能的高质量软件。
-
-<figure><img src=".gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
-
-成功开发软件的两个关键因素是需求工程和架构设计。对于这两个学科，出现严重不良发展的风险很高，因为必须在早期阶段做出具有深远影响的决定（在某些情况下，只有在项目过程的后期才能确定），特别是在可用知识水平仍然有限的情况下（见 \[Nus01]，\[GEM04]）。
-
-因此，软件架构是软件开发中决定性的成功因素之一，因为它决定了如何对大型软件密集型系统的数百万行程序代码进行结构设计，从而使指定的功能在最终结果中可用，并在预算和时间内达到所需的质量（见图 2-1）。
-
-那么软件架构实际上涉及到什么呢？软件工程这个决定性的子学科的核心概念是什么？有哪些程序和方法可用于成功的架构设计？
-
-软件架构和软件工程一样，是一门年轻的学科。因此，在上述问题上存在许多不同的意见，我们不希望以任何方式谴责这些意见或认为它们是不正确的。相反，在本章中，我们希望解释我们对软件架构的基本理解，从而为接下来的章节提供基础。
-
-首先，我们将介绍“软件密集型系统”一词及其与软件架构的相关性。在此基础上，我们将提出并定义软件架构的核心基本术语。最后，我们将介绍架构设计中涉及的基本程序，并解释与其他学科和角色的相互作用。
+* [第1章 介绍](README.md)
+  * [1.1软件架构作为软件工程的一个方面](di-1-zhang-jie-shao/1.1-ruan-jian-jia-gou-zuo-wei-ruan-jian-gong-cheng-de-yi-ge-fang-mian.md)
+  * [1.2iSAQB:国际软件架构资格认证委员会](di-1-zhang-jie-shao/1.2isaqb-guo-ji-ruan-jian-jia-gou-zi-ge-ren-zheng-wei-yuan-hui.md)
+  * [1.3认证软件架构专业人员-基础和高级水平](di-1-zhang-jie-shao/1.3-ren-zheng-ruan-jian-jia-gou-zhuan-ye-ren-yuan-ji-chu-he-gao-ji-shui-ping.md)
+  * [1.4本书的目的](di-1-zhang-jie-shao/1.4-ben-shu-de-mu-di.md)
+  * [1.5先决条件](di-1-zhang-jie-shao/1.5-xian-jue-tiao-jian.md)
+  * [1.6读者指南](di-1-zhang-jie-shao/1.6-du-zhe-zhi-nan.md)
+  * [1.7目标受众](di-1-zhang-jie-shao/1.7-mu-biao-shou-zhong.md)
+  * [1.8 致谢](di-1-zhang-jie-shao/1.8-zhi-xie.md)
+* [第2章 软件架构基础](<README (1).md>)
+  * [2.1 与iSAQB课程整合](di-2-zhang-ruan-jian-jia-gou-ji-chu/2.1-yu-isaqb-ke-cheng-zheng-he.md)
+  * [2.2软件系统和软件架构](di-2-zhang-ruan-jian-jia-gou-ji-chu/2.2-ruan-jian-xi-tong-he-ruan-jian-jia-gou.md)
+  * [2.3 软件架构的基本概念](di-2-zhang-ruan-jian-jia-gou-ji-chu/2.3-ruan-jian-jia-gou-de-ji-ben-gai-nian.md)
+  * [2.4 软件架构设计的鸟瞰](di-2-zhang-ruan-jian-jia-gou-ji-chu/2.4-ruan-jian-jia-gou-she-ji-de-niao-kan.md)
+  * [2.5测试你的知识](di-2-zhang-ruan-jian-jia-gou-ji-chu/2.5-ce-shi-ni-de-zhi-shi.md)
+* [第3章 软件架构设计](di-3-zhang-ruan-jian-jia-gou-she-ji/README.md)
+  * [3.1与iSAQB课程整合](di-3-zhang-ruan-jian-jia-gou-she-ji/3.1-yu-isaqb-ke-cheng-zheng-he.md)
+  * [3.2架构设计过程概述](di-3-zhang-ruan-jian-jia-gou-she-ji/3.2-jia-gou-she-ji-guo-cheng-gai-shu.md)
+  * [3.3设计原则和启发式](di-3-zhang-ruan-jian-jia-gou-she-ji/3.3-she-ji-yuan-ze-he-qi-fa-shi.md)
+  * [3.4以架构为中心的开发方法](di-3-zhang-ruan-jian-jia-gou-she-ji/3.4-yi-jia-gou-wei-zhong-xin-de-kai-fa-fang-fa.md)
+  * [3.5良好的设计技术](di-3-zhang-ruan-jian-jia-gou-she-ji/3.5-liang-hao-de-she-ji-ji-shu.md)
+  * [3.6架构模式](di-3-zhang-ruan-jian-jia-gou-she-ji/3.6-jia-gou-mo-shi.md)
+  * [3.7设计模式](di-3-zhang-ruan-jian-jia-gou-she-ji/3.7-she-ji-mo-shi.md)
+  * [3.8测试你的知识](di-3-zhang-ruan-jian-jia-gou-she-ji/3.8-ce-shi-ni-de-zhi-shi.md)
+* [第4章 软件架构的描述与交流](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/README.md)
+  * [4.1与iSAQB课程整合](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/4.1-yu-isaqb-ke-cheng-zheng-he.md)
+  * [4.2 CoCoME示例](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/4.2-cocome-shi-li.md)
+  * [4.3视图和模板](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/4.3-shi-tu-he-mu-ban.md)
+  * [4.4 软件架构中技术/横切概念](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/4.4-ruan-jian-jia-gou-zhong-ji-shu-heng-qie-gai-nian.md)
+  * [4.5架构与实现](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/4.5-jia-gou-yu-shi-xian.md)
+  * [4.6软件架构的常见文档类型](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/4.6-ruan-jian-jia-gou-de-chang-jian-wen-dang-lei-xing.md)
+  * [4.7 文档的最佳实践规则](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/4.7-wen-dang-de-zui-jia-shi-jian-gui-ze.md)
+  * [4.8替代架构框架的示例](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/4.8-ti-dai-jia-gou-kuang-jia-de-shi-li.md)
+  * [4.9测试你的知识](di-4-zhang-ruan-jian-jia-gou-de-miao-shu-yu-jiao-liu/4.9-ce-shi-ni-de-zhi-shi.md)
+* [第5章软件架构和质量](di-5-zhang-ruan-jian-jia-gou-he-zhi-liang/README.md)
+  * [5.1与iSAQB课程整合](di-5-zhang-ruan-jian-jia-gou-he-zhi-liang/5.1-yu-isaqb-ke-cheng-zheng-he.md)
+  * [5.2评估软件架构](di-5-zhang-ruan-jian-jia-gou-he-zhi-liang/5.2-ping-gu-ruan-jian-jia-gou.md)
+  * [5.3原型和技术概念验证](di-5-zhang-ruan-jian-jia-gou-he-zhi-liang/5.3-yuan-xing-he-ji-shu-gai-nian-yan-zheng.md)
+  * [5.4 架构分析](di-5-zhang-ruan-jian-jia-gou-he-zhi-liang/5.4-jia-gou-fen-xi.md)
+  * [5.5测试你的知识](di-5-zhang-ruan-jian-jia-gou-he-zhi-liang/5.5-ce-shi-ni-de-zhi-shi.md)
+* [第6章软件架构师的工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/README.md)
+  * [6.1与iSAQB课程整合](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.1-yu-isaqb-ke-cheng-zheng-he.md)
+  * [6.2一般信息](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.2-yi-ban-xin-xi.md)
+  * [6.3需求管理工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.3-xu-qiu-guan-li-gong-ju.md)
+  * [6.4建模工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.4-jian-mo-gong-ju.md)
+  * [6.5生成工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.5-sheng-cheng-gong-ju.md)
+  * [6.6静态代码分析工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.6-jing-tai-dai-ma-fen-xi-gong-ju.md)
+  * [6.7动态分析工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.7-dong-tai-fen-xi-gong-ju.md)
+  * [6.8构建管理工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.8-gou-jian-guan-li-gong-ju.md)
+  * [6.9配置和版本管理工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.9-pei-zhi-he-ban-ben-guan-li-gong-ju.md)
+  * [6.10代码管理工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.10-dai-ma-guan-li-gong-ju.md)
+  * [6.11测试工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.11-ce-shi-gong-ju.md)
+  * [6.12文档工具](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.12-wen-dang-gong-ju.md)
+  * [6.13测试你的知识](di-6-zhang-ruan-jian-jia-gou-shi-de-gong-ju/6.13-ce-shi-ni-de-zhi-shi.md)
+* [ASample Questions](asample-questions.md)
+* [BList of Abbreviations](blist-of-abbreviations.md)
+* [CGlossary](cglossary.md)
+* [DReferences](dreferences.md)
+* [Changelog](changelog.md)
