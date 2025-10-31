@@ -34,24 +34,24 @@
 
 关于软件架构的基本概念的示例问题
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (40).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 关于软件架构的设计和开发的示例问题
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 关于软件架构的描述和交流的示例问题
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 关于软件架构和质量主题的示例问题
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>

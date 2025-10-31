@@ -119,7 +119,7 @@ This overview contains German- and English-language references. These are refere
 \[ISO/IEC 25010] ISO/IEC 25010:2011 Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – System and software quality models.\
 \[ISO/IEC/IEEE 42010:2011] ISO/IEC/IEEE 42010:2011 – Systems and software engineering – Architecture description.
 
-<figure><img src=".gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 Join us on social!@rocky_nook
