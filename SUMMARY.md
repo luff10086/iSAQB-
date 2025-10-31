@@ -1,6 +1,7 @@
 # Table of contents
 
 * [第1章 介绍](README.md)
+  * [1.0背景](readme/1.0-bei-jing.md)
   * [1.1软件架构作为软件工程的一个方面](di-1-zhang-jie-shao/1.1-ruan-jian-jia-gou-zuo-wei-ruan-jian-gong-cheng-de-yi-ge-fang-mian.md)
   * [1.2iSAQB:国际软件架构资格认证委员会](di-1-zhang-jie-shao/1.2isaqb-guo-ji-ruan-jian-jia-gou-zi-ge-ren-zheng-wei-yuan-hui.md)
   * [1.3认证软件架构专业人员-基础和高级水平](di-1-zhang-jie-shao/1.3-ren-zheng-ruan-jian-jia-gou-zhuan-ye-ren-yuan-ji-chu-he-gao-ji-shui-ping.md)
