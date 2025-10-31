@@ -54,11 +54,9 @@ IT项目系统方法的技术独立技能
 
 
 图1-4显示了iSAQB软件架构认证专业人员(CPSA)基础水平培训课程中各个领域的内容和权重。
-
-<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
-
-<p align="center">图1-4 CPSA基础水平培训的iSAQB课程结构</p>
-
+<img width="885" height="463" alt="image" src="https://github.com/user-attachments/assets/6faeec82-d5b3-40a8-8742-708dc1714627" />
+ 图1-4 CPSA基础水平培训的iSAQB课程结构</p>
+ 
 
 各种独立机构提供基于iSAQB课程的认证。考官使用由iSAQB准备的标准化问题。
 \
