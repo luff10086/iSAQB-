@@ -9,7 +9,7 @@
   * [1.6读者指南](di-1-zhang-jie-shao/1.6-du-zhe-zhi-nan.md)
   * [1.7目标受众](di-1-zhang-jie-shao/1.7-mu-biao-shou-zhong.md)
   * [1.8 致谢](di-1-zhang-jie-shao/1.8-zhi-xie.md)
-* [第2章 软件架构基础](<README (1).md>)
+* [第2章 软件架构基础](di-2-zhang-ruan-jian-jia-gou-ji-chu/README.md)
   * [2.1 与iSAQB课程整合](di-2-zhang-ruan-jian-jia-gou-ji-chu/2.1-yu-isaqb-ke-cheng-zheng-he.md)
   * [2.2软件系统和软件架构](di-2-zhang-ruan-jian-jia-gou-ji-chu/2.2-ruan-jian-xi-tong-he-ruan-jian-jia-gou.md)
   * [2.3 软件架构的基本概念](di-2-zhang-ruan-jian-jia-gou-ji-chu/2.3-ruan-jian-jia-gou-de-ji-ben-gai-nian.md)
