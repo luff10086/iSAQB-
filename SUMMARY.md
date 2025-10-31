@@ -4,3 +4,4 @@
   * [chapter 2 1](chapter-2-0/chapter-2-1.md)
   * [chapter 2 2](chapter-2-0/chapter-2-2.md)
   * [chapter 2 3](chapter-2-0/chapter-2-3.md)
+* [Changelog](changelog.md)
